@@ -1,0 +1,28 @@
+{
+  "name": "node-study-1",
+  "version": "1.0.0",
+  "engines": {
+    "node": "6.2.2"
+  },
+  "description": "a git project series 1 of x that will focus on recording my study of node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChrisJokinen/node-study-1.git"
+  },
+  "keywords": [
+    "nodejs",
+    "node.js",
+    "tutorial",
+    "example"
+  ],
+  "author": "Chris A Jokinen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChrisJokinen/node-study-1/issues"
+  },
+  "homepage": "https://github.com/ChrisJokinen/node-study-1#readme"
+}
