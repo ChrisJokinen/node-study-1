@@ -29,7 +29,32 @@ This shift involves the following technologies:
 * gitHub – I have a limited knowledge of git and so will offer tips as I find them. I do have a working knowledge of a git work flow I have picked up from work and it is what I will present in this series.
 
 
-# what is missing to date:
+# What is missing to date:
 
 * Off the top of my head I know I am missing automated unit testing. I will work to correct this as I make more repos in this series.
 * a practical and usable project to work on. I am going to hold off on this until I have a much stronger understanding of node.
+
+
+
+# This project:
+I will focus on configuration of a basic node project, github configuration and the work flow I will use going forward. I will note my source materials below and reference them below.
+
+
+# Requirements:
+
+You will need:
+* a github account.
+** to make using github easy, setup a private key and add it to github (github - generatingan ssh key)
+* node.js installed
+
+
+I am working on a windows 10 system. To make use of github I have installed the GitHub Desktop
+
+
+
+# Sources:
+
+[https://desktop.github.com/](GitHub Desktop)
+[https://help.github.com/articles/generating-an-ssh-key/](Github - Generating a ssh key)
+[https://devcenter.heroku.com/articles/node-best-practices](https://devcenter.heroku.com/articles/node-best-practices)
+
