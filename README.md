@@ -54,7 +54,7 @@ I am working on a windows 10 system. To make use of github I have installed the 
 
 # Sources:
 
-[https://desktop.github.com/](GitHub Desktop)
-[https://help.github.com/articles/generating-an-ssh-key/](Github - Generating a ssh key)
-[https://devcenter.heroku.com/articles/node-best-practices](https://devcenter.heroku.com/articles/node-best-practices)
+* [GitHub Desktop](https://desktop.github.com/)
+* [Github - Generating a ssh key](https://help.github.com/articles/generating-an-ssh-key/)
+* [Heroku - Node Best Practices](https://devcenter.heroku.com/articles/node-best-practices)
 
