@@ -44,7 +44,7 @@ I will focus on configuration of a basic node project, github configuration and 
 
 You will need:
 * a github account.
-** to make using github easy, setup a private key and add it to github (github - generatingan ssh key)
+  * to make using github easy, setup a private key and add it to github (github - generatingan ssh key)
 * node.js installed
 
 
