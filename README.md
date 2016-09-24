@@ -57,6 +57,8 @@ In Github
   * for study or open source projects, the public repository is fine. Private is a paid feature and what you would use for any projects you want full control over who can see you code.
   * click the "initalize this repository with a README" checkbox.
   * click "Create Repository" button
+  
+Our your local system
 * Clone your new repo
   * open the GitHub Desktop and click on the "+" on the right. select the clone option and you will see your github repositories listed. select the one you created and click the clone button at the bottom. 
   * Select where you want the repo to exist on your local system. Unlike something like PHP, ASP, etc.. node can run in any location provided you have node installed. I setup a "nodejs" folder directly off of my C:\ drive. For cloning you always select the root directory you want your project to reside in. So there is no need to make a project folder as the cloning process will make it for you. My nodejs folder is just where all of my node projects will reside.
