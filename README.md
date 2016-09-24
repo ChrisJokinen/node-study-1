@@ -40,15 +40,33 @@ This shift involves the following technologies:
 I will focus on configuration of a basic node project, github configuration and the work flow I will use going forward. I will note my source materials below and reference them below.
 
 
-# Requirements:
-
 You will need:
+* I am working on a windows 10 system. To make use of github I have installed the GitHub Desktop also known as GitHub for Windows.
 * a github account.
-  * to make using github easy, setup a private key and add it to github (github - generatingan ssh key)
-* node.js installed
+  * to make using github easy, setup a private key and add it to github (github - generating an ssh key)
+  * to add an ssh key to your windows system, use the git shell and follow the rules for generating a new sshe key (if you do not have an ssh key)
+  * after you make the sshe key follow the instructions for adding you key to you github account.
+* node.js and npm (node package manager) installed
+  * Team Treehouse - install node and npm
 
-
-I am working on a windows 10 system. To make use of github I have installed the GitHub Desktop
+## Steps:
+In Github
+* make a new repository - you may need to navigate to the repositories section on github. Look for a green button that should read "New" or "New Project", click it and fill out the information.
+  * name the repo. If the name already exist you will get a warning.
+  * description is optional, but very useful for a project.
+  * for study or open source projects, the public repository is fine. Private is a paid feature and what you would use for any projects you want full control over who can see you code.
+  * click the "initalize this repository with a README" checkbox.
+  * click "Create Repository" button
+* Clone your new repo
+  * open the GitHub Desktop and click on the "+" on the right. select the clone option and you will see your github repositories listed. select the one you created and click the clone button at the bottom. 
+  * Select where you want the repo to exist on your local system. Unlike something like PHP, ASP, etc.. node can run in any location provided you have node installed. I setup a "nodejs" folder directly off of my C:\ drive. For cloning you always select the root directory you want your project to reside in. So there is no need to make a project folder as the cloning process will make it for you. My nodejs folder is just where all of my node projects will reside.
+* initialize you node project
+  * open th Git Shell, navigate to your project folder. For me I use the "cd c:\nodejs\node-study-1" command at the prompt.
+  * enter npm init. This will start a series of questions about your node application most of these you can use the default (hit enter) but you can name your application, add a description, enter your name as prompted. Once all the questions are answered you will be presented with the contents for a file called "package.json". If you do not know what a json file is, well in simple terms it is a text file. JSON is used a lot to transport information between systems and it can also be used to store settings like an INI or config file.
+  * Modify package.json - I am following the suggestion made here on Heroku (see references) and modifying the package.json file to include the engines setting. The reason stated is sound. Also read the rest of the article as he has some great ideas.
+  * Modify README.md - The default readme only has your project name. As you work on your node project you will need to modify from time to time. Use the GitHub - Markdown Cheetsheet to learn about formating options.
+  * create index.js - when you ran the "npm init" above, one of the questions asked was concerning the "entry point" of your app and it defaults to "index.js". now we need to make it and add some very simple node js code, see below, enter this and save your new file as "index.js".
+  ```console.log("Hello");```
 
 
 
@@ -57,4 +75,5 @@ I am working on a windows 10 system. To make use of github I have installed the 
 * [GitHub Desktop](https://desktop.github.com/)
 * [Github - Generating a ssh key](https://help.github.com/articles/generating-an-ssh-key/)
 * [Heroku - Node Best Practices](https://devcenter.heroku.com/articles/node-best-practices)
-
+* [Team Treehouse - install node and npm](http://blog.teamtreehouse.com/install-node-js-npm-windows)
+* [GitHub - Markdown Cheetsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
